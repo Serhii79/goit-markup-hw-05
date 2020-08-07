@@ -668,6 +668,11 @@ img {
     margin-bottom: 0px;
 }
 
+.portfolio-main-list-item-link {
+    text-decoration: none;
+    color: var(--description-color);
+}
+
 
 .portfolio-main-list-item-title {
     font-weight: bold;
