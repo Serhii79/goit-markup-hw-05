@@ -87,7 +87,8 @@ img {
     align-items: center;
 }
 
-.social-links-item-link:hover {
+.social-links-item-link:hover,
+.social-links-item-link:focus {
     background-color: var(--accent-color);
 }
 
@@ -179,7 +180,8 @@ img {
     fill: var(--description-color);
 }
 
-.header-address-item-link:hover .header-address-item-link-icon {
+.header-address-item-link:hover .header-address-item-link-icon,
+.header-address-item-link:focus .header-address-item-link-icon {
     fill: var(--accent-color);
 }
 
@@ -254,10 +256,6 @@ img {
         
     background: var(--background-button-hero-color);
     color: var(--title-background-light-color);
-}
-
-.hero-btn:hover {
-    border: none;
 }
 
 
@@ -422,7 +420,8 @@ img {
     fill: #afb1b8;
 }
 
-.team .social-links-item-link-icon:hover {
+.team .social-links-item-link-icon:hover,
+.team .social-links-item-link-icon:focus {
     fill: var(--title-background-light-color);
 }
 
@@ -461,11 +460,13 @@ img {
     fill: #afb1b8;
 }
 
-.customers-title-list-item:hover {
+.customers-title-list-item:hover,
+.customers-title-list-item:focus {
     border: 1px solid var(--accent-color);
 }
 
-.customers-title-list-item:hover .customers-link-item {
+.customers-title-list-item:hover .customers-link-item,
+.customers-title-list-item:focus .customers-link-item {
     fill: var(--accent-color);
 
 }
@@ -534,7 +535,8 @@ img {
     background-color: var(--description-color);
 }
 
-.footer .social-links-item-link:hover {
+.footer .social-links-item-link:hover,
+.footer .social-links-item-link:focus {
     background-color: var(--accent-color);
 }
 
@@ -636,7 +638,8 @@ img {
     background: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio-main-list-item:hover .porfolio-discription-hover {
+.portfolio-main-list-item:hover .porfolio-discription-hover,
+.portfolio-main-list-item:focus .porfolio-discription-hover {
     transform: translateY(0);
 }
 
@@ -652,7 +655,8 @@ img {
     color: var(--title-background-light-color);
 }
 
-.portfolio-main-list-item:hover {
+.portfolio-main-list-item:hover,
+.portfolio-main-list-item:focus {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
